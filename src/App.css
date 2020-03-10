@@ -1,0 +1,63 @@
+.middle-header {
+  border-bottom-color: rgb(230, 236, 240);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  height: 53px;
+}
+
+.site-header {
+  border-right-color: rgb(230, 236, 240);
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+/* Use speceficity to remove paddings that comes from bootstrap */
+.col.my-col {
+  padding: 0;
+}
+
+.row.my-row {
+  height: 100vh;
+}
+
+.rigthBar {
+  border-left-color: rgb(230, 236, 240);
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+
+.statusForm {
+  height: 127px;
+  margin-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.my-button {
+  background-color: rgb(29, 161, 242);
+  color: white;
+  border: none;
+
+  border-bottom-left-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+
+  height: 39px;
+  width: 75px;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+}
+
+.statusForm-input {
+  border: none;
+  font-size: 19px;
+}
+
+.statusForm-avatar {
+  margin-right: 10px; 
+}
+
+.statusForm-foot {
+  margin-top: 15px;
+}
